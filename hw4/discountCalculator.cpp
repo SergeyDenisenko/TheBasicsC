@@ -17,7 +17,7 @@ int main() {
 
     amount = costProduct1 + costProduct2 + costProduct3;
     if (amount >= costThreshold) {
-        amount -= amount * (discount / 100);
+        amount -= amount * (discount / 100.0);
         cout << "Размер скидки составил " << discount << "%" << endl;
     }
     cout << "Сумма чека: " << amount << " руб.";
